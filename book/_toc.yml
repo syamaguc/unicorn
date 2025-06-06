@@ -4,9 +4,10 @@
 format: jb-book
 root: content/intro
 parts:
-  - caption: 1. 準備
+  - caption: 1. 考察
     chapters:
-      - file: notebooks/1.1_Pre-Processing
+      - file: notebooks/1.1_Rotation
+      - file: notebooks/1.2_Jockey
   - caption: 2. レース
     chapters:
       - file: notebooks/2.1_Japan-Derby
