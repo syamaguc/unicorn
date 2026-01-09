@@ -1,0 +1,29 @@
+version: 1
+project:
+  title: 可能性の獣
+  authors:
+    - name: syamaguc
+  copyright: "2025"
+  exclude:
+    - _build
+    - Thumbs.db
+    - .DS_Store
+    - "**.ipynb_checkpoints"
+  toc:
+    - file: content/intro.md
+    - title: 1. 競馬場
+      children:
+        - file: content/1.1_Tokyo.md
+          children:
+            - file: notebooks/1.1.1_Tokyo-Turf-1600m.ipynb
+        - file: content/1.2_Nakayama.md
+          children:
+            - file: notebooks/1.2.1_Nakayama-Turf-1600m.ipynb
+        - file: content/1.3_Kyoto.md
+          children:
+            - file: notebooks/1.3.1_Kyoto-Turf-2000m.ipynb
+site:
+  options:
+    logo: ./Unicorn.png
+    folders: true
+  template: book-theme
