@@ -4,31 +4,14 @@
 format: jb-book
 root: content/intro
 parts:
-  - caption: 1. 考察
+  - caption: 1. 競馬場
     chapters:
-      - file: notebooks/1.1_Rotation
-      - file: notebooks/1.2_Jockey
-  - caption: 2. レース
-    chapters:
-      - file: notebooks/2.1_Japan-Derby
-      - file: notebooks/2.2_Yasuda-Kinen
-  - caption: 3. 血統
-    chapters:
-      - file: content/3.1.0_Royal-Charger
+      - file: content/1.1_Tokyo
         sections:
-          - file: notebooks/3.1.1_Deep-Impact
-          - file: notebooks/3.1.2_Daiwa-Major
-      - file: content/3.2.0_Native-Dancer.md
+          - file: notebooks/1.1.1_Tokyo-Turf-1600m
+      - file: content/1.2_Nakayama
         sections:
-          - file: notebooks/3.2.1_Lord-Kanaloa
-      - file: content/3.3.0_Nearctic
+          - file: notebooks/1.2.1_Nakayama-Turf-1600m
+      - file: content/1.3_Kyoto
         sections:
-          - file: notebooks/3.3.1_Kurofune
-  - caption: 4. 競馬場
-    chapters:
-      - file: content/4.1.0_Tokyo
-        sections:
-          - file: notebooks/4.1.1_Tokyo-1600m
-      - file: content/4.2.0_Nakayama
-        sections:
-          - file: notebooks/4.2.1_Nakayama-2000m
+          - file: notebooks/1.3.1_Kyoto-Turf-2000m
