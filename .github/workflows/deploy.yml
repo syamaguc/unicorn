@@ -56,8 +56,7 @@ jobs:
       # Build the book
       - name: Build the book
         run: |
-          cd book
-          jupyter-book build
+          jupyter-book build book
 
       # Upload the book's HTML as an artifact
       - name: Upload artifact
